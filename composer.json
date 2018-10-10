@@ -1,0 +1,20 @@
+{
+    "name": "shopeca/name-splitter",
+    "authors": [
+        {
+            "name": "Tom Hnatovsky",
+            "email": "tomas@hnatovsky.cz"
+        }
+    ],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/Shopeca/name-splitter.git"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Shopeca\\NameSplitter\\": "src/"
+		}
+	}
+}
